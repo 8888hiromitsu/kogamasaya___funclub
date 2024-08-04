@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f2d4; /* 落ち着いた黄色 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2d857; /* 少し濃いめの黄色 */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f2d857;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.profile-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.small-image {
+    width: 45%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    flex: 1 1 calc(20% - 20px);
+    max-width: calc(20% - 20px);
+}
+
+footer {
+    background-color: #f2d857;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#live ul {
+    list-style: none;
+    padding: 0;
+}
+
+#live ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
